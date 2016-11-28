@@ -6,10 +6,10 @@ package jp.ac.uryukyu.ie.e165749;
 
 
 public class LivingThing {
-    String name;
-    int hitPoint;
-    int attack;
-    boolean dead;
+   protected String name;
+   protected int hitPoint;
+   protected int attack;
+   protected boolean dead;
 
 
     public LivingThing(String name, int  maximumHP, int attack){ //コンストラクタ。初期値を入力する。
@@ -45,4 +45,35 @@ public class LivingThing {
         }
     }
 
+    public String getname(){
+        return name;
+    }
+
+    public void setname(String name){
+        this.name = name;
+    }
+
+    public int gethitPoint(){
+        return hitPoint;
+    }
+
+    public void sethitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+
+    public int getattack(){
+        return attack;
+    }
+
+    public void setattack(int attack){
+        this.attack = attack;
+    }
+
+    public boolean getdead(){
+        return dead;
+    }
+
+    public void setdead(boolean dead){
+        this.dead = dead;
+    }
 }
