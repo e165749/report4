@@ -1,4 +1,4 @@
-package jp.ac.uryukyu.ie. e165749;
+package jp.ac.uryukyu.ie.e165749;
 
 /**
  * 敵クラス。
